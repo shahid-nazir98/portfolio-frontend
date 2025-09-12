@@ -1,0 +1,49 @@
+.sidenav-container {
+  height: auto;
+  width: 100%;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.menu-button {
+  display: none;
+}
+
+/* Show hamburger and hide full nav on small screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-button {
+    display: inline-flex;
+  }
+
+  .sidenav-links {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .sidenav-links a {
+    margin-bottom: 0.5rem;
+  }
+}

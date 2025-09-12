@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html {
+  scroll-behavior: smooth;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+body {
+  /* background-color: #504e4e;  */
+  color: #1a1a1a; /* dark readable text */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
